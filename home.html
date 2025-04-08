@@ -4,36 +4,44 @@
     <link href="./css/index.css" type="text/css" rel="stylesheet" > 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </header>
 <body>
-    <nav>
-        <a href="home.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
+    <nav class="top-nav">
+        <a href="home.html" class="top-nav-link">Home</a>
+        <a href="about.html" class="top-nav-link">About</a>
+        <a href="contact.html" class="top-nav-link">Contact</a>
     </nav>
     <head> 
-        <h1>Portfolio of David LeBlanc</h1>
-        <p>This is an introduction into myself!</p>
+        <h1 class="heading">Portfolio of David LeBlanc</h1>
+        <p class="heading">This is an introduction into myself!</p>
     </head>
     <figure class="image">
-        <img src="./images/myself.png">
-        <figcaption>Profile Picture</figcaption>
+        <img src="./images/myself.png"> 
     </figure>
-    <div>
+    <div class="highlight-heading">
         <h3>Highlights</h3>
-        <div>"Family"</div>
-        <div>"Friends"</div>
-        <div>"Golfing"</div>
-        <div>"Vacations"</div>
-        <div>"Software Engineer"</div>
-        <div>"Management"</div>
+        <p>These are the highlights of my profile!</p>
+    </div>
+    <div class="flex-container">
+        <div class="highlight">"Family"</div>
+        <div class="highlight">"Friends"</div>
+        <div class="highlight">"Golfing"</div>
+        <div class="highlight">"Vacations"</div>
+        <div class="highlight">"Software Engineer"</div>
+        <div class="highlight">"Management"</div>
     </div>
 </body>
 <footer>
-    <div>The Portfolio of David LeBlanc</div>
-    <img></img>
-    <img></img>
-    <img></img>
-    <img></img>
+    <div class="footer">
+        <p class="footer-label">The portfolio of David LeBlanc</p>
+        <span class="footer-links">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-snapchat"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-twitter"></a>
+        </span>
+    </div>
 </footer>

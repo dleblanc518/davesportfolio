@@ -1,7 +1,106 @@
+
+/* This is broad CSS cover all pages*/
+a {
+    padding: 5px; 
+    margin-left: 5px;  
+    margin-right: 5px;
+    color: black; 
+    font-size: 14px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white; 
+}
+
 body {
-    background-color: darkcyan;
+    background-color: rgb(136, 231, 231);
     font-family: "Abril Fatface", serif;
 }
 
+.highlight-heading {
+    font-weight: lighter;
+    margin-left: 25px; 
+}
 
+.subtext {
+    font-size: 14px;
+    padding-left: 50px; 
+}
+
+footer {
+    opacity: 50%;
+    padding-top: 100px; 
+}
+
+.top-nav {
+    text-align: right;
+    padding: 10px; 
+    margin-left: 10px;  
+    margin-right: 10px;
+}
+
+.top-nav-link {
+    padding: 10px; 
+    margin-left: 10px;  
+    margin-right: 10px;
+    color: black; 
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.top-nav-link:hover {
+    color: white; 
+}
+
+/* This CSS is covering just the Home Page */
+.heading {
+    text-align: center;
+}
+
+.image {
+    display:block; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+.highlight {
+    display: inline-flex; 
+    justify-content: space-between;
+    font-size: 18px; 
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: auto;
+    height: 150px; 
+    align-content: space-around;
+}
+
+.flex-container > * {
+    padding: 20px; 
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: auto;
+    height: 200px; 
+    align-content: space-around;
+}
+
+.footer-label {
+    text-align: left;
+}
+
+
+/* This CSS is covering just the About Page */
+
+
+
+/* This CSS is covering just the Contact Page */
 
