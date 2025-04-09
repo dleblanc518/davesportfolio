@@ -15,7 +15,7 @@ a:hover {
 
 body {
     background-color: rgb(136, 231, 231);
-    font-family: "Abril Fatface", serif;
+    font-family: "Work Sans", serif;
 }
 
 .highlight-heading {
@@ -100,7 +100,121 @@ footer {
 
 /* This CSS is covering just the About Page */
 
+h1 {
+    font-size: 36px; 
+}
+
+.title {
+    color: black; 
+    text-align: center;
+}
+
+.working-image {
+    opacity: 30%; 
+    width: 65%;    
+    z-index: 0; 
+}
+
+.center {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.center-description {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.nav-container {
+    display: flex;
+}
+
+.family-container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.family {
+    display: inline-flex;
+    max-width: 100%;
+    height: auto; 
+}
+
+.nav-nav-container {
+    display: flex;
+}
+
+.nav-nav-container-text {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.nav-nav-container-image {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 50%;
+
+}
+
+.career {
+    max-width: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.activities-container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.activities {
+    display: inline-flex;
+    max-width: 100%;
+    height: 350px; 
+}
+
 
 
 /* This CSS is covering just the Contact Page */
+.nav-container-contact-me {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: space-evenly;
+    justify-content: space-evenly;
+}
 
+.contact-me-form {
+    display: inline-flex;
+    flex-direction: column;
+    min-width: 350px;
+    max-width: 100%;
+    align-items: space-evenly;
+    justify-content: space-evenly;
+    height: auto;
+}
+
+.contact-me-image {
+    display: inline-flex;
+    flex-direction: column;
+    max-width: 20%;
+    align-items: center;
+}
+
+.contact-me {
+    display: inline-flex;
+    flex-direction: column;
+    max-width: 80%;
+    align-items: center;
+    height: auto;
+}

@@ -16,36 +16,45 @@
     <nav>
         <h1>Contact</h1>
         <p>Thanks for looking into my portfolio page!  If you want to connect with please do so via Facebook, LinkedIn or Instagram links below.  If you have any questions or feedback feel free to email me! </p>
-        <img src="./images/myself.png"/>
     </nav>
-    <form action="" method="get" class="contact-me">
-        <div class="contact-me">   
-            <label for="first-name">First Name:</label>
-            <input type="text" name="first-name" id="first-name" required/>
-        </div>
-        <div class="contact-me">
-            <label for="last-name">Last Name:</label>
-            <input type="text" name="last-name" id="last-name" required/>
-        </div>
-        <div class="contact-me">
-            <label for="email">Email:</label>
-            <input type="email" name="email" id="email" required/>
-        </div>
-        <div class="contact-me">
-            <label for="description">Description:</label>
-            <input type="text" name="description" id="description" required/>
-        </div>
-        <div class="contact-me">
-            <input type="submit" value="Email Me"/>
-        </div>
-    </form>
+    <nav class="nav-container">
+        <nav class="nav-container-contact-me">
+            <div class="contact-me-form">
+                <form action="" method="get" class="contact-me">
+                    <div class="contact-me">   
+                        <label for="first-name">First Name:</label>
+                        <input type="text" name="first-name" id="first-name" required/>
+                    </div>
+                    <div class="contact-me">
+                        <label for="last-name">Last Name:</label>
+                        <input type="text" name="last-name" id="last-name" required/>
+                    </div>
+                    <div class="contact-me">
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" required/>
+                    </div>
+                    <div class="contact-me">
+                        <label for="description">Description:</label>
+                        <input type="text" name="description" id="description" required/>
+                    </div>
+                    <div class="contact-me">
+                        <input type="submit" value="Email Me"/>
+                    </div>
+                </form>
+            </div>
+            <img class="contact-me-image" src="./images/Family.jpeg"/>
+        </nav>
+    </nav>
 
 </body>
 <footer class="footer">
-    <div>The portfolio of David LeBlanc</div>
-    <a href="#" class="fa fa-facebook"></a>
-    <a href="#" class="fa fa-instagram"></a>
-    <a href="#" class="fa fa-snapchat"></a>
-    <a href="#" class="fa fa-linkedin"></a>
-    <a href="#" class="fa fa-twitter"></a>
+    <div class="footer">
+        <p class="footer-label">The portfolio of David LeBlanc</p>
+        <span class="footer-links">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-snapchat"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-twitter"></a>
+        </span>
 </footer>
